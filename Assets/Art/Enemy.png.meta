@@ -1,0 +1,777 @@
+fileFormatVersion: 2
+guid: b29aeb6201fb09d42bffc72a7363ae80
+timeCreated: 1519268796
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GhostBackDiag
+    21300002: GhostBack
+    21300004: GhostBackDiag1
+    21300006: GhostSide
+    21300008: GhostSide1
+    21300010: GhostFrontDiag
+    21300012: GhostFront
+    21300014: GhostFrontDiag1
+    21300016: Coin1
+    21300018: Coin2
+    21300020: Coin3
+    21300022: Coin4
+    21300024: Coin5
+    21300026: Key
+    21300028: GhostHBackDiag
+    21300030: GhostHBack
+    21300032: GhostHBackDiag1
+    21300034: GhostHSide
+    21300036: GhostHSide1
+    21300038: GhostHFrontDiag
+    21300040: GhostHFront
+    21300042: GhostHFrontDiag1
+    21300044: PlayerBack
+    21300046: PlayerBack1
+    21300048: PlayerBack2
+    21300050: PlayerSide
+    21300052: PlayerFront
+    21300054: PlayerFront2
+    21300056: PlayerFront3
+    21300058: PlayerSide3
+    21300060: PlayerSide4
+    21300062: PlayerSide1
+    21300064: PlayerSide2
+    21300066: PlayerSide5
+    21300068: PlayerBackDiag
+    21300070: PlayerBackDiag3
+    21300072: PlayerBackDiag1
+    21300074: PlayerBackDiag4
+    21300076: PlayerBackDiag2
+    21300078: PlayerBackDiag5
+    21300080: PlayerFrontDiag
+    21300082: PlayerFrontDiag1
+    21300084: PlayerFrontDiag2
+    21300086: PlayerFrontDiag4
+    21300088: PlayerFrontDiag5
+    21300090: PlayerFrontDiag3
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GhostBackDiag
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1262
+        width: 229
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GhostBack
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1265
+        width: 195
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GhostBackDiag1
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1265
+        width: 231
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GhostSide
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 954
+        width: 267
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GhostSide1
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 957
+        width: 283
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GhostFrontDiag
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 657
+        width: 242
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GhostFront
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 660
+        width: 212
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GhostFrontDiag1
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 657
+        width: 218
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Coin1
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 1023
+        width: 174
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Coin2
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 1026
+        width: 58
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Coin3
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 1028
+        width: 141
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Coin4
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 709
+        width: 143
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Coin5
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 723
+        width: 198
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Key
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 668
+        width: 129
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GhostHBackDiag
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 1265
+        width: 190
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GhostHBack
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1265
+        width: 196
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GhostHBackDiag1
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 1260
+        width: 198
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GhostHSide
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 960
+        width: 193
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GhostHSide1
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 960
+        width: 184
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GhostHFrontDiag
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 649
+        width: 201
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GhostHFront
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 649
+        width: 179
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: GhostHFrontDiag1
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 654
+        width: 228
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBack
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 365
+        width: 187
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBack1
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 365
+        width: 190
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBack2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 354
+        width: 198
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSide
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 351
+        width: 176
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerFront
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 60
+        width: 193
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerFront2
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 65
+        width: 192
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerFront3
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 55
+        width: 187
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSide3
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 55
+        width: 195
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSide4
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 49
+        width: 204
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSide1
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 355
+        width: 179
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSide2
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 355
+        width: 179
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerSide5
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 49
+        width: 190
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBackDiag
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 352
+        width: 188
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBackDiag3
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 60
+        width: 173
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBackDiag1
+      rect:
+        serializedVersion: 2
+        x: 2131
+        y: 355
+        width: 179
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBackDiag4
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 52
+        width: 160
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBackDiag2
+      rect:
+        serializedVersion: 2
+        x: 2442
+        y: 363
+        width: 170
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerBackDiag5
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 52
+        width: 179
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerFrontDiag
+      rect:
+        serializedVersion: 2
+        x: 2736
+        y: 357
+        width: 193
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerFrontDiag1
+      rect:
+        serializedVersion: 2
+        x: 3028
+        y: 355
+        width: 201
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerFrontDiag2
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 363
+        width: 204
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerFrontDiag4
+      rect:
+        serializedVersion: 2
+        x: 3028
+        y: 49
+        width: 195
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerFrontDiag5
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 49
+        width: 187
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayerFrontDiag3
+      rect:
+        serializedVersion: 2
+        x: 2731
+        y: 57
+        width: 187
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
