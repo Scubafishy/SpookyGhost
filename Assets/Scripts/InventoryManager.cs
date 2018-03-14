@@ -75,6 +75,11 @@ public class InventoryManager : MonoBehaviour
         HasKey = true;
     }
 
+    public void ResetKey()
+    {
+        HasKey = false;
+    }
+
     #endregion
 
     private void Start()

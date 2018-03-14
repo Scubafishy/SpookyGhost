@@ -18,6 +18,7 @@ public class LevelEnd : MonoBehaviour
         {
             InventoryManager.Instance.SaveCoinCount();
             InventoryManager.Instance.ResetLevelCoinCount();
+            InventoryManager.Instance.ResetKey();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         else
