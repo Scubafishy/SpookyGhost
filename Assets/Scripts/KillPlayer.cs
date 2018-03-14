@@ -16,6 +16,7 @@ public class KillPlayer : MonoBehaviour {
     {
         InventoryManager.Instance.ResetToSavedCoinCount();
         InventoryManager.Instance.ResetLevelCoinCount();
+        InventoryManager.Instance.ResetKey();
         SceneManager.LoadScene(currentScene.name);
     }
 
