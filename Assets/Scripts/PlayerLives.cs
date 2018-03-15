@@ -31,7 +31,7 @@ public class PlayerLives : MonoBehaviour
 
     void Start()
     {
-        numberOfLivesRemaining = 3;
+        ResetLives();
     }
 
     public void LoseLife()
@@ -42,5 +42,9 @@ public class PlayerLives : MonoBehaviour
     public void GainLife()
     {
         numberOfLivesRemaining++;
+    }
+    public void ResetLives()
+    {
+        numberOfLivesRemaining = 3;
     }
 }

@@ -17,4 +17,13 @@ public class MenuButtons : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void PlayButtonCLicked()
+    {
+        SceneManager.LoadScene("Level1");
+        InventoryManager.Instance.ResetCoinCount();
+        InventoryManager.Instance.ResetKey();
+        InventoryManager.Instance.ResetLevelCoinCount();
+        GameObject.FindGameObjectWithTag("Player Lives").GetComponent<PlayerLives>().ResetLives();
+    }
 }

@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LevelEnd : MonoBehaviour
 {
-
+    [SerializeField]
+    Text needKeyText;
 
     private void Start()
     {
@@ -23,8 +25,16 @@ public class LevelEnd : MonoBehaviour
         }
         else
         {
-            Debug.Log("You need a key!");
+            needKeyText.enabled = true;
+            StartCoroutine(ShowKeyText());
         }
         
+    }
+
+    IEnumerator ShowKeyText()
+    {
+        yield return new WaitForSecondsRealtime(5.0f);
+
+        needKeyText.enabled = false;
     }
 }

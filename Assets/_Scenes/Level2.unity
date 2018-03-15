@@ -88,7 +88,6 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -3491,12 +3490,12 @@ Prefab:
     - target: {fileID: 224522947738925868, guid: 3fdfd107d89c9df459d8ac4f4a9c04ab,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 378.5
       objectReference: {fileID: 0}
     - target: {fileID: 224522947738925868, guid: 3fdfd107d89c9df459d8ac4f4a9c04ab,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 213
       objectReference: {fileID: 0}
     - target: {fileID: 224522947738925868, guid: 3fdfd107d89c9df459d8ac4f4a9c04ab,
         type: 2}
@@ -3581,6 +3580,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3fdfd107d89c9df459d8ac4f4a9c04ab, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1639468686 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114505452432578064, guid: 3fdfd107d89c9df459d8ac4f4a9c04ab,
+    type: 2}
+  m_PrefabInternal: {fileID: 1639468685}
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1 &1733097074
 GameObject:
   m_ObjectHideFlags: 0
@@ -3645,7 +3650,6 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -4333,6 +4337,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114388668467321376, guid: 49845e7d094c62848b668707d3e96751,
+        type: 2}
+      propertyPath: needKeyText
+      value: 
+      objectReference: {fileID: 1639468686}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 49845e7d094c62848b668707d3e96751, type: 2}
   m_IsPrefabParent: 0
