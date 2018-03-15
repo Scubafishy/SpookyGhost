@@ -16,7 +16,13 @@ public class EnemyMovement : MonoBehaviour
 
     bool isStunned = false;
     bool isFirstTimeAfterLookingAway = true;
-    
+
+    Animator anim;
+
+    void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
 
     void Update()
     {
@@ -38,6 +44,11 @@ public class EnemyMovement : MonoBehaviour
                 transform.position = Vector3.MoveTowards(transform.position, Player.position, step);
             }
         }
+        anim.SetFloat("MoveX",Player.position.x);
+        anim.SetFloat("MoveY",Player.position.y);
+        anim.SetBool("GhostHiding",isStunned);
+        anim.SetFloat("LastX",Player.position.x);
+        anim.SetFloat("LastY",Player.position.y);
     }
 
     public void BeingWatched()
